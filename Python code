@@ -1,0 +1,6 @@
+#importe as bibliotecas, se necessario instale com o pip install wikipedia
+import wikipedia
+
+#coleta as informacoes do wiki
+resultado = wikipedia.summary("brazil")#aqui digite qual informacao buscar no wikipedia
+print(resultado)
