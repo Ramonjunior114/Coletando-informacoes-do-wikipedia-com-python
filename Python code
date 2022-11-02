@@ -2,5 +2,6 @@
 import wikipedia
 
 #coleta as informacoes do wiki
+wikipedia.set_lang('pt')
 resultado = wikipedia.summary("brazil")#aqui digite qual informacao buscar no wikipedia
 print(resultado)
